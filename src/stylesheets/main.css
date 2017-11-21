@@ -1,0 +1,57 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  /* justify-content: center;
+   align-items: center;*/
+  font-family: sans-serif;
+  color: #525252;
+}
+
+a {
+  text-decoration: none;
+  color: #cb3837;
+}
+
+.container {
+  text-align: center;
+}
+
+#links {
+  background-color: aliceblue;
+  width: 20%;
+}
+
+[data-link] {
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+[data-link]:hover {
+  background-color: blanchedalmond;
+}
+
+#stage {
+  width: 80%;
+  display: flex;
+}
+
+webview {
+  width: 100%;
+  flex: 1;
+  transition: opacity 0.3s;
+}
+
+.hidden {
+ opacity: 0;
+  width: 0;
+  height: 0;
+  flex: 0;
+}
